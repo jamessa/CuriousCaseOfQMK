@@ -6,3 +6,9 @@ ORYX:
 
 QMK:
 	teensy_loader_cli -mmcu=atmega32u4 -w -v QMK/ergodox_ez_default.hex
+
+avr-gcc-4:
+	teensy_loader_cli -mmcu=atmega32u4 -w -v QMK-avr-gcc-4/ergodox_ez_default.hex
+
+356:
+	teensy_loader_cli -mmcu=atmega32u4 -w -v QMK-0.6.356/ergodox_ez_default.hex

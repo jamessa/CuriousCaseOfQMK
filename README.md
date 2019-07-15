@@ -5,7 +5,7 @@ I cannot build and upload latest QMK from macOS
 
 ## Enviroment
 
-```shell 
+```shell
 $ uname -a
 Darwin Rocinante.local 18.6.0 Darwin Kernel Version 18.6.0: Thu Apr 25 23:16:27 PDT 2019; root:xnu-4903.261.4~2/RELEASE_X86_64 x86_64
 ```
@@ -53,3 +53,6 @@ Booting
 
 * 2019-07-15 downgrade to *QMK Firmware 0.6.356* with *avr-gcc 4.9.2*. My current setting is *QMK Firmware 0.6.414* with *avr-gcc 8.3.0*
 
+* `brew install avr-gcc@4`
+
+* didn't work. Checkout `make avr-gcc-4`
