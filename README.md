@@ -1,7 +1,8 @@
 # CuriousCaseOfQMK
 
-## The Problem
-I cannot build and upload latest QMK from macOS
+## Problem Description
+
+I cannot boot latest QMK firmware on Teensy 2.0 using macOS Mojave.
 
 ## Enviroment
 
