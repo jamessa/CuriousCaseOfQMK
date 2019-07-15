@@ -29,12 +29,12 @@ Waiting for Teensy device...
 Found HalfKay Bootloader
 Read "QMK/ergodox_ez_default.hex": 25896 bytes, 80.3% usage
 Programming..........................................................................................................................................................................error writing to Teensy
+make: *** [QMK] Error 1
 ```
 
-meanwhile, the [firmware download from Oryx](https://configure.ergodox-ez.com/ergodox-ez/layouts/default/latest/0) worked perfectly.
+but the [firmware download from Oryx](https://configure.ergodox-ez.com/ergodox-ez/layouts/default/latest/0) worked perfectly.
 
 ```shell
-make: *** [QMK] Error 1
 ➜  CuriousCaseOfQMK git:(master) ✗ make ORYX
 teensy_loader_cli -mmcu=atmega32u4 -w -v ORYX/ergodox_ez_ergodox-ez-default-layout-v1-3-4_ZPKDr.hex
 Teensy Loader, Command Line, Version 2.1
@@ -45,7 +45,6 @@ Found HalfKay Bootloader
 Read "ORYX/ergodox_ez_ergodox-ez-default-layout-v1-3-4_ZPKDr.hex": 22060 bytes, 68.4% usage
 Programming.............................................................................................................................................................................
 Booting
-
 ```
 
 ## Log
