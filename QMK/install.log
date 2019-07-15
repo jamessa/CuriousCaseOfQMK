@@ -1,0 +1,165 @@
+➜  qmk_firmware git:(master) ./util/qmk_install.sh
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 5 taps (homebrew/cask-versions, homebrew/core, homebrew/cask, homebrew/bundle and homebrew/cask-fonts).
+==> New Formulae
+whalebrew
+==> Updated Formulae
+node ✔              doctl               kore                petsc
+python ✔            doitlive            kube-aws            petsc-complex
+sip ✔               dosbox              kubernetes-helm     phpmd
+yarn ✔              dscanner            kustomize           poco
+youtube-dl ✔        dynamips            kvazaar             proj
+amazon-ecs-cli      eprover             landscaper          prometheus
+angular-cli         erlang              lgogdownloader      proteinortho
+ansible             erlang@21           libhdhomerun        protoc-gen-go
+apache-flink        ethereum            libjson-rpc-cpp     pulumi
+asdf                exploitdb           libraw              pyside
+ask-cli             fio                 libsbol             radare2
+atlantis            firebase-cli        libtensorflow       redex
+aws-sdk-cpp         fonttools           libvirt             serverless
+babel               frpc                linkerd             shibboleth-sp
+balena-cli          frps                lmod                ship
+bazel               fs-uae              log4cplus           swagger-codegen
+binaryen            fselect             log4shib            swagger-codegen@2
+bitrise             gatsby-cli          logcheck            sysdig
+botan               get_iplayer         logstash            tag
+bro                 ghex                lxc                 telegraf
+bundletool          ghostscript         meson               terraform
+bzip2               glide               minio               thors-serializer
+caddy               golang-migrate      minio-mc            tomcat
+cfn-lint            goreleaser          mkl-dnn             tomcat@8
+chakra              gradle              mono                ttyd
+chipmunk            gsoap               mpop                ucloud
+chronograf          gst-plugins-bad     msmtp               ungit
+circleci            hcloud              nickle              vim@7.4
+citus               helmfile            nim                 vulkan-headers
+ckan                hqx                 nss                 webdis
+cocoapods           hub                 ocrad               webp
+convox              hypre               ocrmypdf            websocat
+cxxopts             i386-elf-gcc        opam                xml-tooling-c
+dbus                i386-elf-gdb        open-zwave          yash
+dcd                 i386-elf-grub       openconnect         yaz
+debianutils         isync               openhmd             zabbix
+di                  janet               openrct2            znc
+digdag              jlog                opensaml
+dita-ot             jsoncpp             operator-sdk
+dnstwist            klavaro             pdnsrec
+
+==> Tapping osx-cross/avr
+Cloning into '/usr/local/Homebrew/Library/Taps/osx-cross/homebrew-avr'...
+remote: Enumerating objects: 36, done.
+remote: Counting objects: 100% (36/36), done.
+remote: Compressing objects: 100% (34/34), done.
+remote: Total 36 (delta 7), reused 16 (delta 0), pack-reused 0
+Unpacking objects: 100% (36/36), done.
+Tapped 10 formulae (86 files, 137.4KB).
+==> Tapping px4/px4
+Cloning into '/usr/local/Homebrew/Library/Taps/px4/homebrew-px4'...
+remote: Enumerating objects: 21, done.
+remote: Counting objects: 100% (21/21), done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 21 (delta 6), reused 12 (delta 5), pack-reused 0
+Unpacking objects: 100% (21/21), done.
+Tapped 16 formulae (62 files, 52.4KB).
+Already up-to-date.
+==> Installing avr-gcc@8 from osx-cross/avr
+==> Installing dependencies for osx-cross/avr/avr-gcc@8: avr-binutils, isl and libmpc
+==> Installing osx-cross/avr/avr-gcc@8 dependency: avr-binutils
+==> Downloading https://dl.bintray.com/osx-cross/bottles-avr/avr-binutils-2.32.m
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/f58c54e4d7f4de467292d
+######################################################################## 100.0%
+==> Pouring avr-binutils-2.32.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/avr-binutils/2.32: 157 files, 21.2MB
+==> Installing osx-cross/avr/avr-gcc@8 dependency: isl
+==> Downloading https://homebrew.bintray.com/bottles/isl-0.21.mojave.bottle.tar.
+==> Downloading from https://akamai.bintray.com/f9/f9188b5d486b2a835cd865f219be1
+######################################################################## 100.0%
+==> Pouring isl-0.21.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/isl/0.21: 72 files, 4.3MB
+==> Installing osx-cross/avr/avr-gcc@8 dependency: libmpc
+==> Downloading https://homebrew.bintray.com/bottles/libmpc-1.1.0.mojave.bottle.
+######################################################################## 100.0%
+==> Pouring libmpc-1.1.0.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/libmpc/1.1.0: 12 files, 354KB
+==> Installing osx-cross/avr/avr-gcc@8
+==> Downloading https://dl.bintray.com/osx-cross/bottles-avr/avr-gcc@8-8.3.0.moj
+==> Downloading from https://d29vzk4ow07wi7.cloudfront.net/035b5dd9f8d39555125b1
+######################################################################## 100.0%
+==> Pouring avr-gcc@8-8.3.0.mojave.bottle.tar.gz
+==> Caveats
+avr-gcc@8 is keg-only, which means it was not symlinked into /usr/local,
+because it might interfere with other version of avr-gcc. This is useful if you want to have multiple version of avr-gcc installed on the same machine.
+
+If you need to have avr-gcc@8 first in your PATH run:
+  echo 'export PATH="/usr/local/opt/avr-gcc@8/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find avr-gcc@8 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/avr-gcc@8/lib"
+
+==> Summary
+🍺  /usr/local/Cellar/avr-gcc@8/8.3.0: 1,720 files, 202MB
+==> Installing gcc-arm-none-eabi from px4/px4
+==> Downloading https://armkeil.blob.core.windows.net/developer/Files/downloads/
+######################################################################## 100.0%
+==> Copying binaries...
+🍺  /usr/local/Cellar/gcc-arm-none-eabi/20180627: 5,658 files, 467.4MB, built in 1 minute 59 seconds
+==> Installing dependencies for dfu-programmer: libusb and libusb-compat
+==> Installing dfu-programmer dependency: libusb
+==> Downloading https://homebrew.bintray.com/bottles/libusb-1.0.22.mojave.bottle
+######################################################################## 100.0%
+==> Pouring libusb-1.0.22.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/libusb/1.0.22: 29 files, 508KB
+==> Installing dfu-programmer dependency: libusb-compat
+==> Downloading https://homebrew.bintray.com/bottles/libusb-compat-0.1.5_1.mojav
+######################################################################## 100.0%
+==> Pouring libusb-compat-0.1.5_1.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/libusb-compat/0.1.5_1: 14 files, 94.0KB
+==> Installing dfu-programmer
+==> Downloading https://homebrew.bintray.com/bottles/dfu-programmer-0.7.2.mojave
+######################################################################## 100.0%
+==> Pouring dfu-programmer-0.7.2.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/dfu-programmer/0.7.2: 9 files, 107.2KB
+==> Installing dependencies for avrdude: libelf, libftdi0 and libhid
+==> Installing avrdude dependency: libelf
+==> Downloading https://homebrew.bintray.com/bottles/libelf-0.8.13_1.mojave.bott
+######################################################################## 100.0%
+==> Pouring libelf-0.8.13_1.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/libelf/0.8.13_1: 12 files, 218.5KB
+==> Installing avrdude dependency: libftdi0
+==> Downloading https://homebrew.bintray.com/bottles/libftdi0-0.20.mojave.bottle
+######################################################################## 100.0%
+==> Pouring libftdi0-0.20.mojave.bottle.2.tar.gz
+🍺  /usr/local/Cellar/libftdi0/0.20: 20 files, 189.9KB
+==> Installing avrdude dependency: libhid
+==> Downloading https://homebrew.bintray.com/bottles/libhid-0.2.16.mojave.bottle
+######################################################################## 100.0%
+==> Pouring libhid-0.2.16.mojave.bottle.1.tar.gz
+🍺  /usr/local/Cellar/libhid/0.2.16: 18 files, 181.4KB
+==> Installing avrdude
+==> Downloading https://homebrew.bintray.com/bottles/avrdude-6.3_1.mojave.bottle
+==> Downloading from https://akamai.bintray.com/65/65fe6de6f540eb1c6ad94d35c847f
+######################################################################## 100.0%
+==> Pouring avrdude-6.3_1.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/avrdude/6.3_1: 14 files, 1.9MB
+==> Downloading https://homebrew.bintray.com/bottles/dfu-util-0.9.mojave.bottle.
+######################################################################## 100.0%
+==> Pouring dfu-util-0.9.mojave.bottle.tar.gz
+🍺  /usr/local/Cellar/dfu-util/0.9: 11 files, 115.7KB
+Error: python 3.7.3 is already installed
+To upgrade to 3.7.4, run `brew upgrade python`.
+==> Caveats
+==> avr-gcc@8
+avr-gcc@8 is keg-only, which means it was not symlinked into /usr/local,
+because it might interfere with other version of avr-gcc. This is useful if you want to have multiple version of avr-gcc installed on the same machine.
+
+If you need to have avr-gcc@8 first in your PATH run:
+  echo 'export PATH="/usr/local/opt/avr-gcc@8/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find avr-gcc@8 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/avr-gcc@8/lib"
+
+Linking /usr/local/Cellar/avr-gcc@8/8.3.0... 20 symlinks created
+
+If you need to have this software first in your PATH instead consider running:
+  echo 'export PATH="/usr/local/opt/avr-gcc@8/bin:$PATH"' >> ~/.zshrc
