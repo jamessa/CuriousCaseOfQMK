@@ -53,6 +53,9 @@ Booting
 
 * 2019-07-15 downgrade to *QMK Firmware 0.6.356* with *avr-gcc 4.9.2*. My current setting is *QMK Firmware 0.6.414* with *avr-gcc 8.3.0*
 
-* `brew install avr-gcc@4`
+`brew install avr-gcc@4` didn't work. Checkout `make avr-gcc-4`
 
-* didn't work. Checkout `make avr-gcc-4`
+trying out `git checkout 0.6.356`... still didn't work. Checkuout `make 356`
+
+? build options ?
+? avr-gcc 4.9.2, avr-gcc 4.9.4 ?
