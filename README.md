@@ -49,11 +49,7 @@ Booting
 
 ## Log
 
-2019-07-14
+* 2019-07-14 build `teensy_loader_cli` directly and tweek the timout and debug result. Looks like there's no *boot* event in QMK firmwire.
 
-build `teensy_loader_cli` directly and tweek the timout and debug result. Looks like there's no *boot* event in QMK firmwire.
-
-2019-07-15
-
-downgrade to *QMK Firmware 0.6.356* with *avr-gcc 4.9.2*. My current setting is *QMK Firmware 0.6.414* with *avr-gcc 8.3.0*
+* 2019-07-15 downgrade to *QMK Firmware 0.6.356* with *avr-gcc 4.9.2*. My current setting is *QMK Firmware 0.6.414* with *avr-gcc 8.3.0*
 
