@@ -57,5 +57,4 @@ Booting
 
 trying out `git checkout 0.6.356`... still didn't work. Checkuout `make 356`
 
-? build options ?
-? avr-gcc 4.9.2, avr-gcc 4.9.4 ?
+* 2019-7-15 by adding `LINK_TIME_OPTIMIZATION_ENABLE = yes` to rule.mk fixed the issue. Case closed, it's a build issue. Pull request here https://github.com/qmk/qmk_firmware/pull/6339
