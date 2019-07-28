@@ -57,4 +57,18 @@ Booting
 
 trying out `git checkout 0.6.356`... still didn't work. Checkuout `make 356`
 
-* 2019-7-15 by adding `LINK_TIME_OPTIMIZATION_ENABLE = yes` to rule.mk fixed the issue. Case closed, it's a build issue. Pull request here https://github.com/qmk/qmk_firmware/pull/6339
+2019-7-15 
+
+by adding `LINK_TIME_OPTIMIZATION_ENABLE = yes` to rule.mk fixed the issue. Case closed, it's a build issue. Pull request here https://github.com/qmk/qmk_firmware/pull/6339
+
+2019-7-28 
+
+I got real Teensy 2.0 from [PJRC](https://www.pjrc.com/store/teensy.html) and ALL problem fixed. The root cause is counterfeit Teensy 2.0 board.
+
+![Upload Testing](screenshot.jpg)
+
+(Real) Teensy 2.0 from PJRC
+![Teensy 2.0](/Users/james/Projects/CuriousCaseOfQMK/Teensy20.jpg)
+
+Counterfeit Teensy 2.0 from Taobao
+![Counterfeit Teensy 2.0 from Taobao](/Users/james/Projects/CuriousCaseOfQMK/CounterfeitTeensy20.jpg)
