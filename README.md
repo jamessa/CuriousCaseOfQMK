@@ -65,10 +65,10 @@ by adding `LINK_TIME_OPTIMIZATION_ENABLE = yes` to rule.mk fixed the issue. Case
 
 I got real Teensy 2.0 from [PJRC](https://www.pjrc.com/store/teensy.html) and ALL problem fixed. The root cause is counterfeit Teensy 2.0 board.
 
-![Upload Testing](screenshot.jpg)
+![Upload Testing](Screenshot.jpg)
 
 (Real) Teensy 2.0 from PJRC
-![Teensy 2.0](/Users/james/Projects/CuriousCaseOfQMK/Teensy20.jpg)
+![Teensy 2.0](Teensy20.jpg)
 
 Counterfeit Teensy 2.0 from Taobao
-![Counterfeit Teensy 2.0 from Taobao](/Users/james/Projects/CuriousCaseOfQMK/CounterfeitTeensy20.jpg)
+![Counterfeit Teensy 2.0 from Taobao](CounterfeitTeensy20.jpg)
